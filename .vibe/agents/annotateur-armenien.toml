@@ -1,0 +1,12 @@
+agent_type = "subagent"
+description = "Annote les textes en armenien."  
+enabled_skills = ["normes/annotateur-armenien"]      
+instructions = "Tu annotes les textes en armenien. Utilise la skill annotateur-armenien."
+
+enabled_tools = ["read_file", "write_file"]
+
+[tools.read_file]
+denylist = ["*/data/*"]       
+
+[tools.write_file]
+denylist = ["*/data/*"]

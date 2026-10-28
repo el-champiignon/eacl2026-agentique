@@ -1,0 +1,6 @@
+form	lemma	pos
+գրեաց	գրել	V
+առ	առ	I+Prep
+նա	նա	PRO+Dem
+զփորձութիւնս	զ@փորձութիւն	I+Prep@N+Com
+իւր	իւր	PRO+Ref

@@ -1,0 +1,11 @@
+agent_type = "subagent"
+description = "Relit et signale les erreurs. A utiliser après annotation."
+enabled_tools = ["read files"]          
+enabled_skills = ["normes/relecteur-grec"]
+instructions = "Tu relis ; tu ne modifies rien. Tu signales juste les erreurs à l'agent principal. Utilise la skill relecteur-grec."
+
+[tools.read_file]
+denylist = ["*/data/*"]
+
+[tools.write_file]
+denylist = ["*/data/*"]

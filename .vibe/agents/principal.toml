@@ -1,0 +1,7 @@
+agent_type = "agent"
+description = "Coordonne les différents sous-agents. "
+
+enabled_skills = ["normes"]      
+instructions = "Tu coordonnes les sous-agents. Récupère tes instructions dans ../../AGENTS.md"
+[tools.read_file]
+denylist = ["*/data/*"]       
